@@ -1,0 +1,54 @@
+/*
+ * Adjust the height according to your image height
+ * Center the text using line-height (trick)
+ * You also may need to scale the width
+ */
+    
+.before-after-center{
+	width:700px;
+    margin:0px auto;
+    text-align:center;
+    height:40px;
+    line-height:25px;
+    
+}
+
+.before-after-center .wrapper h1,
+.before-after-center .wrapper h2,
+.before-after-center .wrapper h3,
+.before-after-center .wrapper h4,
+.before-after-center .wrapper h5{
+    
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
+
+
+/*
+ * Adjust your image size !!!
+ * margin-left == width (make the image on your left side)
+ */
+
+.before-after-center .wrapper:before{
+    content:"";
+    width:100px;
+    height:40px;
+    margin-top:-5px;
+    margin-left:-100px;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-image:url('logoeventbefore.png')
+}
+
+
+.before-after-center .wrapper:after{
+    content:"";
+    width:100px;
+    height:40px;
+    margin-top:-5px;
+    margin-left: 10px;
+    position:absolute;
+    background-repeat:no-repeat;
+    background-image:url('logoeventafter.png')
+}
