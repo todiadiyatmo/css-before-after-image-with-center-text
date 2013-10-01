@@ -24,6 +24,7 @@ You can also view it live here :
 
 1. Download the package, open index.php on sample folder
 2. Tweak your CSS According your need. The syntax is straightforward and i also have put some notes on it
+3. Standard usage :
 
 		<div class='before-after-center'>
 			<span class='wrapper'>
