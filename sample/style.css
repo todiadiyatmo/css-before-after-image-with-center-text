@@ -13,11 +13,16 @@
     
 }
 
+/*
+ * Default implementation is for h5-h1 + p
+ */
+
 .before-after-center .wrapper h1,
 .before-after-center .wrapper h2,
 .before-after-center .wrapper h3,
 .before-after-center .wrapper h4,
-.before-after-center .wrapper h5{
+.before-after-center .wrapper h5,
+.before-after-center .wrapper p{
     
     display:inline-block;
     padding:0px;
@@ -40,6 +45,10 @@
     background-repeat:no-repeat;
     background-image:url('logoeventbefore.png')
 }
+
+/*
+ * Adjust your image size !!!
+ */
 
 
 .before-after-center .wrapper:after{
