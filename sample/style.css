@@ -5,28 +5,32 @@
  */
     
 .before-after-center{
-	width:700px;
+    width:700px;
     margin:0px auto;
     text-align:center;
     height:40px;
     line-height:25px;
     
+    
 }
-
-/*
- * Default implementation is for h5-h1 + p
- */
 
 .before-after-center .wrapper h1,
 .before-after-center .wrapper h2,
 .before-after-center .wrapper h3,
 .before-after-center .wrapper h4,
-.before-after-center .wrapper h5,
-.before-after-center .wrapper p{
+.before-after-center .wrapper h5{
     
-    display:inline-block;
+    display:inline;
     padding:0px;
     margin:0px;
+    position:relative;
+    
+}
+
+.before-after-center .wrapper{
+    display: inline;
+    
+    position: relative;
 }
 
 
@@ -41,18 +45,17 @@
     height:40px;
     margin-top:-5px;
     margin-left:-100px;
+    top:0px;
+    left:0px;
     position:absolute;
     background-repeat:no-repeat;
     background-image:url('logoeventbefore.png')
 }
-
-/*
- * Adjust your image size !!!
- */
-
+ 
 
 .before-after-center .wrapper:after{
     content:"";
+    top:0px;
     width:100px;
     height:40px;
     margin-top:-5px;
