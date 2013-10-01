@@ -17,6 +17,7 @@ You can also view it live here :
 2. Mozilla Firefox
 3. Chrome
 4. Opera
+5. Safari
 
 ![IE 8 Compatible](http://tonjoo.com/wp-content/uploads/2013/10/IE-8-Compatible.png)
 
